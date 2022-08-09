@@ -38,7 +38,6 @@ body{
 }
 .details .hint,.time{
     font-size: 1.1rem;
-    text-transform: capitalize;
     font-weight: 500;
 }
 .details .hint span,.time span{
