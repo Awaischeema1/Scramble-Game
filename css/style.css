@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #40407a;
+}
+.container{
+    width: 450px;
+    background: #fff;
+    border-radius: 7px;
+}
+.container h2{
+    padding: 20px;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #ccc;
+}
+.container .content{
+    margin: 25px 20px 30px;
+}
+.content .word{
+    text-transform: uppercase;
+    text-align: center;
+    color: #40407a;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 20px;
+}
+.details{
+    margin: 20px 0;
+}
+.details .hint,.time{
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.details .hint span,.time span{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.details .hint{
+    margin-bottom: 10px;
+}
+.content input{
+    width: 100%;
+    height: 55px;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.buttons button{
+    width: calc(100% / 2 - 8px);
+    padding: 10px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 7px;
+    color: #fff;
+}
+.refresh-word{
+    background: grey;
+}
+.check-word{
+    background: #40407a;
+}
